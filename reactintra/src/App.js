@@ -1,7 +1,7 @@
 import './App.css';
 import {useEffect, useState} from "react";
 import ViewGuesses from "./components/ViewGuesses/ViewGuesses";
-import FormGuess from "./components/Form/Form";
+import FormGuess from "./components/Form/FormGuess";
 function App() {
     const loadAllData = () => {
         return async () => {
