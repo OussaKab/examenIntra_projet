@@ -14,8 +14,8 @@ export default function FormGuess(setCurrentGuess,currentGuess, setComputerGuess
     }, [setCurrentGuess]);
 
 
-    const setGuess = useEffect((valuye) => {
-        setCurrentGuess({...currentGuess, guess_user: parseInt(e.target.value)})
+    const setGuess = useEffect((value) => {
+        setCurrentGuess({...currentGuess, guess_user: parseInt(value)})
     }, [setCurrentGuess]);
 
 
